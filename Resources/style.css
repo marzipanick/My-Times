@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   color: black;
+  font-family: Georgia;
+  font-size: 17px;
 }
 
 a {
@@ -44,15 +46,12 @@ padding: 20px 40px;
   padding: 10px;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .column {
   position: relative;
   top: 90px;
   display: flex;
-  width: 100%
+  width: 1280px;
+  margin: 0 auto 78px auto;
   justify-content: space-between;
 }
 
@@ -60,19 +59,95 @@ div {
   display: flex;
   flex-direction: column;
   flex: 0 0 630px;
-  margin: 20px 20px 20px 0;
+}
+
+.one {
+  background-image: url("./images/main-myt.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.two {
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.three {
+  background-image: url("./images/fall-myt.png");
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.four {
+  background-image: url("./images/cameraman-myt.png");
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .medium {
   display: flex;
   flex-direction: column;
   flex: 0 0 300px;
-  margin: 20px;
+}
+
+.five {
+  background-image: url("./images/cat-myt.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .small {
   display: flex;
   flex-direction: column;
   flex: 0 0 240px;
-  margin: 20px;
+}
+
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.buttons {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+
+  flex-wrap: wrap;
+}
+
+.list {
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
 }
